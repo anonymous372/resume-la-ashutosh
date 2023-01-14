@@ -11,12 +11,22 @@ const Sidebar = ({ open, setOpen }) => {
       className="block md:hidden"
     >
       {open && (
-        <div className="z-0 h-screen absolute top-0 left-0 pt-16 px-4 w-48 bg-gray-100">
+        <div className="z-20 h-screen absolute top-0 left-0 pt-16 px-4 w-48 bg-gray-100">
           <div className="flex flex-col pt-2 gap-3 items-start text-gray-900 font-bold">
             <Link
               to={"/"}
               className={`flex rounded items-center w-full pl-2 pr-5 py-2 hover:bg-slate-50 border-l-4 ${
                 path === "/"
+                  ? "border-blue-500 bg-gray-50"
+                  : "border-transparent hover:border-gray-200"
+              }`}
+            >
+              Home
+            </Link>
+            <Link
+              to={"/about"}
+              className={`flex rounded items-center w-full pl-2 pr-5 py-2 hover:bg-slate-50 border-l-4 ${
+                path === "/about"
                   ? "border-blue-500 bg-gray-50"
                   : "border-transparent hover:border-gray-200"
               }`}

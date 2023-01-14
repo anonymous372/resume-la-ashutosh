@@ -1,11 +1,17 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = ({ open, setOpen }) => {
   const path = useLocation().pathname;
+  const navigate = useNavigate();
   return (
-    <div className="z-10 flex justify-between items-center px-6 bg-white shadow-md absolute top-0 left-0 right-0 h-14">
+    <div className="z-30 flex justify-between items-center px-6 bg-white shadow-md absolute top-0 left-0 right-0 h-14">
       {/* Logo */}
-      <div className="hidden md:block w-10 h-10 mr-6">[Logo]</div>
+      <div
+        className="hidden md:block w-10 h-10 mr-6"
+        onClick={() => navigate("/")}
+      >
+        [Logo]
+      </div>
       <div
         className="border-2 border-black cursor-pointer md:hidden block px-2"
         onClick={(e) => {
@@ -18,9 +24,9 @@ const Navbar = ({ open, setOpen }) => {
 
       <div className="hidden md:flex justify-between items-center w-full max-w-3xl text-gray-900 font-bold">
         <Link
-          to={"/"}
+          to={"/about"}
           className={`flex items-center px-5 py-1 bg-slate-50 rounded-full border-2 ${
-            path === "/" ? "border-blue-500" : "border-transparent shadow"
+            path === "/about" ? "border-blue-500" : "border-transparent shadow"
           }`}
         >
           About
@@ -57,7 +63,9 @@ const Navbar = ({ open, setOpen }) => {
         </Link>
       </div>
       <div className="md:block hidden w-10 h-10"></div>
-      <div className="block md:hidden w-10 h-10">[Logo]</div>
+      <div className="block md:hidden w-10 h-10" onClick={() => navigate("/")}>
+        [Logo]
+      </div>
     </div>
   );
 };

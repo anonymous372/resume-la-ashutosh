@@ -5,6 +5,7 @@ import Research from "../screens/research";
 import Teaching from "../screens/teaching";
 import Contact from "../screens/contact";
 import NoMatch from "../screens/noMatch";
+import Home from "../screens/home";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/about",
         element: <About />,
       },
       {
