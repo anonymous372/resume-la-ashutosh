@@ -4,7 +4,7 @@ const Navbar = ({ open, setOpen }) => {
   const path = useLocation().pathname;
   const navigate = useNavigate();
   return (
-    <div className="z-30 flex justify-between items-center px-6 bg-white shadow-md absolute top-0 left-0 right-0 h-14">
+    <div className="z-30 flex justify-between items-center px-6 bg-white shadow-md fixed sm:absolute top-0 left-0 right-0 h-14">
       {/* Logo */}
       <div
         className="hidden md:block w-10 h-10 mr-6"

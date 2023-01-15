@@ -5,29 +5,31 @@ import image from "../constants/images/will_smith.jpg"
 
 const Contact = () => {
   return (
-    <div style={{height: "calc(100vh - 56px)"}} className="pt-6 overflow-hidden">
+    <div style={{height: "calc(100vh - 64px)"}} className="pt-6 overflow-hidden">
       {/* Profile Container */}
       <div className="mb-20">
         <div className="flex items-center justify-center flex-col gap-6">
           {/* Image */}
-          <img src={image} className="shadow-md rounded-full h-32 w-32 sm:h-40 sm:w-40"></img>
+          <div className="sm:w-40 sm:h-40 w-32 h-32 overflow-hidden rounded-full shadow-md shadow-blue-500">
+          <img src={image} className="hover:scale-105"></img>
+          </div>
           {/* Text */}
-          <div className="text-xl max-w-lg text-center text-gray-700">{CONTACT_TEXT}</div>
+          <div className="text-lg sm:text-xl max-w-lg text-center text-gray-700">{CONTACT_TEXT}</div>
         </div>
       </div>
 
       {/* Shadow */}
       <div className="relative">
-        <div className="opacity-40 bg-white rounded-full absolute -top-20 left-1/2 -translate-x-1/2 w-96 h-96 sm:w-[500px] sm:h-[500px] bg-gray-100"></div>
+        <div className="opacity-40 bg-blue-50 rounded-full absolute -top-20 left-1/2 -translate-x-1/2 w-96 h-96 sm:w-[500px] sm:h-[500px] bg-gray-100"></div>
       </div>
 
       {/* Links Container */}
-      <div className="relative mx-auto border-4 border w-72 sm:w-96 sm:p-3 p-2 shadow-md rounded-md">
+      <div className="relative bg-white mx-auto border-[2px] border-blue-200 border w-72 sm:w-96 sm:p-3 p-2 shadow-md rounded-md">
           {/* Header */}
           <h1 className="mb-2 border-b-2 border-gray-200 text-xl text-center md:text-3xl font-medium text-gray-700">Contacts</h1>
           <div className="px-4">
             {/* Gmail */}
-            <div className="flex items-center gap-4 py-2 border-b-2 border-gray-100">
+            <div className="flex items-center gap-4 py-2 border-b-2 border-blue-100">
               <span className="p-1 bg-gray-100 rounded">
                 <img src={mail_img} className="w-6 h-6"></img>
               </span>
