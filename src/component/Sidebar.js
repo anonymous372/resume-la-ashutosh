@@ -11,7 +11,7 @@ const Sidebar = ({ open, setOpen }) => {
       className="block md:hidden"
     >
       {open && (
-        <div className="z-20 h-screen fixed top-0 left-0 pt-16 px-4 w-48 bg-gray-100">
+        <div className="z-20 h-screen absolute top-0 left-0 pt-16 px-4 w-48 bg-gray-100">
           <div className="flex flex-col pt-2 gap-3 items-start text-gray-900 font-bold">
             <Link
               to={"/"}

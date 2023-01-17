@@ -1,4 +1,5 @@
-export const CV_LINK = "https://www.youtube.com";
+export const CV_LINK =
+  "https://drive.google.com/drive/folders/1mw6Dzlk6cI5mlO5hdeY6yhqk7AMnFkBA";
 export const GMAIL = "ashooshukla@gmail.com";
 export const LINKEDIN_LINK =
   "https://www.linkedin.com/in/ashutoshshukla9871946911/";
