@@ -1,5 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-
+import logo from "../constants/images/logo.jpg";
+import sidebar_img from "../constants/images/sidebar_icon.png";
 const Navbar = ({ open, setOpen }) => {
   const path = useLocation().pathname;
   const navigate = useNavigate();
@@ -7,19 +8,22 @@ const Navbar = ({ open, setOpen }) => {
     <div className="z-30 flex justify-between items-center px-6 bg-white shadow-md absolute top-0 left-0 right-0 h-14">
       {/* Logo */}
       <div
-        className="hidden md:block w-10 h-10 mr-6"
+        className="hidden md:block w-8 h-8 mr-6"
         onClick={() => navigate("/")}
       >
-        [Logo]
+        <img
+          src={logo}
+          className="rounded-full shadow-md outline outline-gray-500 outline-offset-1 outline-2"
+        ></img>
       </div>
       <div
-        className="border-2 border-black cursor-pointer md:hidden block px-2"
+        className="cursor-pointer md:hidden block px-2"
         onClick={(e) => {
           e.stopPropagation();
           setOpen(!open);
         }}
       >
-        Sidebar Icon
+        <img src={sidebar_img} className="w-8 h-8"></img>
       </div>
 
       <div className="hidden md:flex justify-between items-center w-full max-w-3xl text-gray-900 font-bold">
@@ -63,8 +67,11 @@ const Navbar = ({ open, setOpen }) => {
         </Link>
       </div>
       <div className="md:block hidden w-10 h-10"></div>
-      <div className="block md:hidden w-10 h-10" onClick={() => navigate("/")}>
-        [Logo]
+      <div className="block md:hidden w-8 h-8" onClick={() => navigate("/")}>
+        <img
+          src={logo}
+          className="rounded-full shadow-md outline outline-gray-500 outline-offset-1 outline-2"
+        ></img>
       </div>
     </div>
   );
