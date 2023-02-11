@@ -1,4 +1,4 @@
-import image from "../constants/images/will_smith.jpg";
+import image from "../constants/images/me.jpg";
 import copy_img from "../constants/images/copy.png";
 import link_img from "../constants/images/link.png";
 import { useNavigate } from "react-router-dom";
