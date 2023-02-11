@@ -1,14 +1,13 @@
 import { CONTACT_TEXT, GMAIL, LINKEDIN_LINK } from "../constants/data";
 import mail_img from "../constants/images/mail.webp";
 import linkedin_img from "../constants/images/linkedin.png";
-import image from "../constants/images/me.jpg";
+import image from "../constants/images/me.jpeg";
 
 const Contact = () => {
   return (
     <div
       style={{ height: "calc(100vh - 56px)" }}
-      className="pt-6 overflow-hidden"
-    >
+      className="pt-6 overflow-hidden">
       {/* Profile Container */}
       <div className="mb-20">
         <div className="flex items-center justify-center flex-col gap-6">

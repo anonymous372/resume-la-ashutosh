@@ -1,12 +1,28 @@
 import { PUBLICATIONS } from "../constants/data";
+import "react-image-gallery/styles/css/image-gallery.css";
+import ReactImageGallery from "react-image-gallery";
+import "./home.css"
 
 const Research = () => {
+ const images = [
+    {
+      original: 'https://picsum.photos/id/1018/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1015/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1019/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+  ];
   return (
     <div className="pt-4 sm:px-10">
       {/* Slideshow */}
-      <div className="py-8 bg-gray-300">
-        <h2 className="text-center">[Slideshow]</h2>
-      </div>
+        <div className="py-16 reimga"><ReactImageGallery items={images}/></div>
+      
       <div className="flex flex-col items-center">
         {/* Heading */}
         <h1 className="mt-8 text-center text-3xl text-blue-400 text-bold">
