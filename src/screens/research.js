@@ -1,35 +1,37 @@
 import { PUBLICATIONS } from "../constants/data";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ReactImageGallery from "react-image-gallery";
-import "./home.css"
+import "./home.css";
 
 const Research = () => {
- const images = [
+  const images = [
     {
-      original: 'https://picsum.photos/id/1018/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
+      original: "https://picsum.photos/id/1018/1000/600/",
+      thumbnail: "https://picsum.photos/id/1018/250/150/",
     },
     {
-      original: 'https://picsum.photos/id/1015/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1015/250/150/',
+      original: "https://picsum.photos/id/1015/1000/600/",
+      thumbnail: "https://picsum.photos/id/1015/250/150/",
     },
     {
-      original: 'https://picsum.photos/id/1019/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+      original: "https://picsum.photos/id/1019/1000/600/",
+      thumbnail: "https://picsum.photos/id/1019/250/150/",
     },
   ];
   return (
     <div className="pt-4 sm:px-10">
       {/* Slideshow */}
-        <div className="py-16 reimga"><ReactImageGallery items={images}/></div>
-      
+      <div className="py-16 reimga">
+        <ReactImageGallery items={images} autoPlay />
+      </div>
+
       <div className="flex flex-col items-center mb-10">
         {/* Heading */}
         <h1 className="mt-8 text-center text-3xl text-blue-400 text-bold">
           Exploring Light-Soft Matter Interactions
         </h1>
         {/* Publications */}
-        <div className="mt-4 px-16 max-w-5xl bg-gray-100">
+        <div className="my-4 px-16 max-w-5xl bg-gray-100">
           <h2 className="my-2 text-2xl font-medium">Publications</h2>
           {PUBLICATIONS.map((paper) => {
             return (
