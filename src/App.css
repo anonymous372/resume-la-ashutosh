@@ -1,3 +1,14 @@
 .App {
   box-sizing: border-box;
 }
+.image-gallery{
+  background-color: rgba(200,200,200,0.15);
+}
+.image-gallery-image{
+  height:600px;
+}
+
+.image-gallery-thumbnail-image{
+  height: 60px;
+  object-fit:scale-down; 
+}

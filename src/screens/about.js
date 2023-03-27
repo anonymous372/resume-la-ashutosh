@@ -1,4 +1,4 @@
-import image from "../constants/images/me.jpeg";
+import image from "../constants/images/me2.jpg";
 import copy_img from "../constants/images/copy.png";
 import link_img from "../constants/images/link.png";
 import { useNavigate } from "react-router-dom";
@@ -15,7 +15,7 @@ const About = () => {
         {/* Image & Subtext */}
         <div>
           {/* Image Container */}
-          <div className="w-64 rounded flex items-start justify-between overflow-hidden">
+          <div className="w-64 h-64 rounded flex items-start justify-between overflow-hidden">
             <img
               src={image}
               className="outline-offset-0 border-blue-400 border-r-[6px] border-b-[8px] transition-transform hover:scale-110"

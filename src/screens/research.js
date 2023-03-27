@@ -23,7 +23,7 @@ const Research = () => {
       {/* Slideshow */}
         <div className="py-16 reimga"><ReactImageGallery items={images}/></div>
       
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mb-10">
         {/* Heading */}
         <h1 className="mt-8 text-center text-3xl text-blue-400 text-bold">
           Exploring Light-Soft Matter Interactions

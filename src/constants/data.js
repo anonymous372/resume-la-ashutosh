@@ -1,13 +1,38 @@
 // Constant Strings
 export const CV_LINK =
-  "https://drive.google.com/drive/folders/1mw6Dzlk6cI5mlO5hdeY6yhqk7AMnFkBA";
+  "https://drive.google.com/file/d/1mwbcA8VRdYb-xI2dhyGgs0Jj-AY-ISTS/view";
 export const GMAIL = "ashooshukla@gmail.com";
 export const LINKEDIN_LINK =
   "https://www.linkedin.com/in/ashutoshshukla9871946911/";
 export const CONTACT_TEXT =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor";
-export const TEACHING =
+export const TEACHING_TEXT =
   "I am one of the teachers at iiser and i teach in this subject in that department i am king of the world and top of the earth.";
+
+export const TEACHINGS = [
+  {
+    title: "Teaching Assistantship",
+    description: "Teaching assistant in PH3134 Optics at IISER Pune with Prof. G V Pavan Kumar", 
+    interval: "Autumn Semester 2022"
+  },
+  {
+    title: "Teaching Assistantship", 
+    description: "Teaching assistant in PH4233 Advanced Physics Lab with Prof G V, Pavan Kumar", 
+    interval: "Spring semester 2023"
+  },
+  {
+    title: "Teaching", 
+    description: "Teaching the course PHY202 at Interdisciplinary school of science, Pune University", 
+    interval: "Spring semester 2023"
+  },
+  {
+    title: "Teaching", 
+    description: "Teaching Physics 102 course at Interdisciplinary School of Science at Savitribai Phule Pune University", 
+    interval: "Spring semester 2023",
+    extraText:"Course Notes can be found",
+    extraLink:"https://drive.google.com/drive/folders/1UEd5wxSPtN3BxXrp_leZ0KF2YsSGJvT7"
+  }
+]
 
 // Publication Data
 export const PUBLICATIONS = [
