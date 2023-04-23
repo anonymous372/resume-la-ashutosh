@@ -56,6 +56,16 @@ const Navbar = ({ open, setOpen }) => {
           Teaching
         </Link>
         <Link
+          to="/blog"
+          className={`flex items-center px-5 py-1 bg-slate-50 rounded-full border-2 ${
+            path === "/blog"
+              ? "border-blue-500"
+              : "border-transparent shadow"
+          }`}
+        >
+          Blog
+        </Link>
+        <Link
           to="/contact"
           className={`flex items-center px-5 py-1 bg-slate-50 rounded-full border-2 ${
             path === "/contact"

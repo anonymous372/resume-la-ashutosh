@@ -2,7 +2,8 @@ import image from "../constants/images/me2.jpg";
 import copy_img from "../constants/images/copy.png";
 import link_img from "../constants/images/link.png";
 import { useNavigate } from "react-router-dom";
-import { CV_LINK } from "../constants/data";
+import { ABOUT_TEXT, CV_LINK, PROFESSIONAL_BIO } from "../constants/data";
+
 const About = () => {
   const navigate = useNavigate();
   return (
@@ -29,10 +30,7 @@ const About = () => {
           <div className="shadow bg-sky-100 max-w-2xl rounded-md p-2 p-4">
             <h1 className="text-xl text-gray-800 font-medium mb-2">About Me</h1>
             <p className="text-lg text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              {ABOUT_TEXT}
             </p>
           </div>
         </div>
@@ -40,15 +38,12 @@ const About = () => {
 
       {/*Personal Bio  */}
       <div className="mt-16 bg-gray-100 rounded">
-        <div className="max-w-xl rounded-md p-2 p-4">
+        <div className="rounded-md p-2 p-4">
           <h1 className="text-2xl text-gray-800 font-medium mb-2">
             Professional Bio
           </h1>
           <p className="text-lg text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            {PROFESSIONAL_BIO}
           </p>
         </div>
       </div>
