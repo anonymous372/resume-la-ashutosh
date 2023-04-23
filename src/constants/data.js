@@ -5,10 +5,24 @@ export const GMAIL = "ashooshukla@gmail.com";
 export const LINKEDIN_LINK =
   "https://www.linkedin.com/in/ashutoshshukla9871946911/";
 export const LINKEDIN_TEXT = "@ashutoshshukla9871946911";
+
+export const GOOGLESCHOLAR_LINK = "https://scholar.google.com/citations?hl=en&user=GZTgMxoAAAAJ";
+export const GOOGLESCHOLAR_TEXT = "@ashutoshshukla_gscholar";
+export const RESEARCHGATE_LINK = "https://www.researchgate.net/profile/Ashutosh-Shukla-29";
+export const RESEARCHGATE_TEXT = "@ashutoshshukla_rgate";
+
 export const YOUTUBE_LINK = "https://www.youtube.com/@noclickbaitphysics5938";
 export const YOUTUBE_TEXT = "@noclickbaitphysics5938";
+
 export const CONTACT_TEXT =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor";
+  `You can find me here on internet.
+  Feel free to contact me.`;
+
+
+
+
+
+
 export const TEACHING_TEXT =
   "I am one of the teachers at iiser and i teach in this subject in that department i am king of the world and top of the earth.";
 
@@ -73,7 +87,17 @@ export const PUBLICATIONS = [
 export const HOME_TEXT = "Hi, I am Ashutosh Shukla! I am a Prime Minister’s Research Fellow (PMRF) at IISER Pune. I like studying and teaching science.";
 
 
-export const ABOUT_TEXT = `Ashutosh, a scientist so bright, uses lasers to trap particles in sight.
-Communicating science with passion and zeal, breaking down barriers, making knowledge real.`
+export const ABOUT_TEXT = 
+`Ashutosh, a scientist so bright,
+uses lasers to trap particles in sight.
+Communicating science with passion and zeal,
+breaking down barriers, making knowledge real.`
 
-export const PROFESSIONAL_BIO = `I am Ashutosh Shukla, currently pursuing my research as a scholar at the Indian Institute of Science Education and Research (IISER) Pune, India. I utilize optical tweezers to investigate colloidal and nanoparticle systems, with a focus on developing novel techniques to trap and manipulate nanoparticles for applications in materials science and biomedicine. In addition to my research, I am an experienced science communicator and outreach enthusiast. I run two YouTube channels, 'No Clickbait Physics' and 'Vlog My PhD,' where I break down complex scientific concepts and make them accessible to non-academic audiences. I have a keen interest in interacting with school and college students, where I explain science and physics concepts using simple demonstrations. I am committed to making science accessible and engaging for everyone and to inspiring the next generation of scientists.`
+export const PROFESSIONAL_BIO = 
+`I am Ashutosh Shukla, currently pursuing my research as a scholar at the Indian Institute of Science Education and Research (IISER) Pune, India.
+
+I utilize optical tweezers to investigate colloidal and nanoparticle systems, with a focus on developing novel techniques to trap and manipulate nanoparticles for applications in materials science and biomedicine.
+
+In addition to my research, I am an experienced science communicator and outreach enthusiast. I run two YouTube channels, 'No Clickbait Physics' and 'Vlog My PhD,' where I break down complex scientific concepts and make them accessible to non-academic audiences.
+
+I have a keen interest in interacting with school and college students, where I explain science and physics concepts using simple demonstrations. I am committed to making science accessible and engaging for everyone and to inspiring the next generation of scientists.`

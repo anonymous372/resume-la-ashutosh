@@ -6,9 +6,11 @@ function Post() {
         img:"http://nunforest.com/mite-demo/upload/single/1@2x.jpg",
         title:"Vivamus vestibulum ntulla necante.",
         description:`Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque,
-        aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+        Phasellus hendrerit. Pellentesque aliquet nibh nec urna. 
+        In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
         laoreet viverra, tortor libero sodales leo
+
+        Thank You
         `,
         date:Date.now()
     }
@@ -27,8 +29,8 @@ function Post() {
                         <div className="mb-5 text-2xl font-bold text-slate-700">
                             <h3>{postDetails.title}</h3>
                         </div>
-                        <div className="text-slate-500 text-lg">
-                            <p>{postDetails.description}<br/><br/>{postDetails.description}</p>
+                        <div className="text-slate-500 text-lg whitespace-pre-line">
+                            <p>{postDetails.description}</p>
                         </div>
                     </div>
                 </div>

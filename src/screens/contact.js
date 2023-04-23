@@ -5,11 +5,18 @@ import {
   LINKEDIN_TEXT,
   YOUTUBE_LINK,
   YOUTUBE_TEXT,
+  GOOGLESCHOLAR_LINK,
+  GOOGLESCHOLAR_TEXT,
+  RESEARCHGATE_LINK,
+  RESEARCHGATE_TEXT,
 } from "../constants/data";
+
 import mail_img from "../constants/images/mail.webp";
 import linkedin_img from "../constants/images/linkedin.png";
 import youtube_img from "../constants/images/youtube.png";
-import image from "../constants/images/me.jpeg";
+import image from "../constants/images/me11.jpg";
+import scholar_img from "../constants/images/Scholar.png";
+import researchgate_img from "../constants/images/ResearchGate.png";
 
 const Contact = () => {
   return (
@@ -21,12 +28,14 @@ const Contact = () => {
       <div className="mb-20">
         <div className="flex items-center justify-center flex-col gap-6">
           {/* Image */}
+          <div className="shadow-md rounded-full h-32 w-32 sm:h-40 sm:w-40 overflow-hidden">
           <img
             src={image}
-            className="shadow-md rounded-full h-32 w-32 sm:h-40 sm:w-40"
+            className="object-cover h-full w-full"
           ></img>
+          </div>
           {/* Text */}
-          <div className="text-xl max-w-lg text-center text-gray-700">
+          <div className="text-xl max-w-lg text-center text-gray-700 whitespace-pre-line">
             {CONTACT_TEXT}
           </div>
         </div>
@@ -58,7 +67,7 @@ const Contact = () => {
             </a>
           </div>
           {/* Linkedin */}
-          <div className="flex items-center gap-4 py-2 border-gray-100">
+          <div className="flex items-center gap-4 py-2  border-b-2 border-gray-100">
             <span className="p-1 bg-gray-100 rounded">
               <img src={linkedin_img} className="w-6 h-6"></img>
             </span>
@@ -70,8 +79,34 @@ const Contact = () => {
               {LINKEDIN_TEXT}
             </a>
           </div>
+          {/* Google Scholar */}
+          <div className="flex items-center gap-4 py-2  border-b-2 border-gray-100">
+            <span className="p-1 bg-gray-100 rounded">
+              <img src={scholar_img} className="w-6 h-6"></img>
+            </span>
+            <a
+              className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
+              href={GOOGLESCHOLAR_LINK}
+              target="_blank"
+            >
+              {GOOGLESCHOLAR_TEXT}
+            </a>
+          </div>
+          {/* ResearchGate */}
+          <div className="flex items-center gap-4 py-2  border-b-2 border-gray-100">
+            <span className="p-1 bg-gray-100 rounded">
+              <img src={researchgate_img} className="w-6 h-6"></img>
+            </span>
+            <a
+              className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
+              href={RESEARCHGATE_LINK}
+              target="_blank"
+            >
+              {RESEARCHGATE_TEXT}
+            </a>
+          </div>
           {/* Youtube Channel */}
-          <div className="flex items-center gap-4 py-2 border-gray-100">
+          <div className="flex items-center gap-4 py-2">
             <span className="p-1 bg-gray-100 rounded">
               <img src={youtube_img} className="w-6 h-6"></img>
             </span>

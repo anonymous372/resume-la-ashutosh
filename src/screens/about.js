@@ -29,7 +29,7 @@ const About = () => {
         <div className="w-full">
           <div className="shadow bg-sky-100 max-w-2xl rounded-md p-2 p-4">
             <h1 className="text-xl text-gray-800 font-medium mb-2">About Me</h1>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-700 whitespace-pre-wrap">
               {ABOUT_TEXT}
             </p>
           </div>
@@ -42,7 +42,7 @@ const About = () => {
           <h1 className="text-2xl text-gray-800 font-medium mb-2">
             Professional Bio
           </h1>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg text-gray-700 whitespace-pre-line">
             {PROFESSIONAL_BIO}
           </p>
         </div>
