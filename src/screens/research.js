@@ -2,21 +2,22 @@ import { PUBLICATIONS } from "../constants/data";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ReactImageGallery from "react-image-gallery";
 import "./home.css";
+import thumbnail1 from "../constants/images/starrythumbnail.png"
+import thumbnail2 from "../constants/images/visthumbnail.png"
+import starry from "../constants/images/starry.gif"
+import vis from "../constants/images/vis1.gif"
+
 
 const Research = () => {
   const images = [
     {
-      original: "https://picsum.photos/id/1018/1000/600/",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
+      original: starry,
+      thumbnail: thumbnail1,
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-      original: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
-    },
+      original: vis,
+      thumbnail: thumbnail2,
+    }
   ];
   return (
     <div className="pt-4 sm:px-10">
