@@ -23,9 +23,9 @@ const Research = () => {
   return (
     <div className="pt-4 sm:px-10">
       {/* Heading */ }
-      <div className="py-8 my-0 mx-auto flex flex-col items-center">
-        <h1 className="mt-8 text-center text-3xl text-blue-400 text-bold">
-          Exploring Light-Soft Matter Interactions
+      <div className="py-8 mt-0 mb-6 mx-auto flex flex-col items-center">
+        <h1 className="mt-8 mb-6 text-center text-3xl text-blue-400 text-bold w-[60%]">
+          We use light to drive our soft matter system out of equilibrium and use light to study the system as well.
         </h1>
         <img src={ researchArea } className="w-[50%]" />
       </div>
