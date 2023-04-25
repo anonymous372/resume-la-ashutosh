@@ -78,23 +78,25 @@ export const PUBLICATIONS = [
       "Directing monolayer tungsten disulfide photoluminescence using a bent-plasmonic nanowire on a mirror cavity",
     subTitle: "",
     link: "https://doi.org/10.1140/epjs/s11734-022-00511-y",
-    authors: ["Shailendra Chaubey", "Sunny Tiwari", "Ashutosh Shukla"],
+    authors: [ "Shailendra Chaubey", "Sunny Tiwari", "Ashutosh Shukla" ],
     description:
       "We show that fluorescent nanodiamonds can be trapped using a gold nanoparticle as a heat source. The nanodiamond is trapped on the heat source gold particle by an opto-thermoelectric field generated due to the presence of a surfactant.",
   },
 ];
 
-export const HOME_TEXT = "Hi, I am Ashutosh Shukla! I am a Prime Minister’s Research Fellow (PMRF) at IISER Pune. I like studying and teaching science.";
+export const HOME_TEXT =
+  `I am a Prime Minister’s Research Fellow (PMRF) at IISER Pune.
+I like studying and teaching science.`;
 
 
-export const ABOUT_TEXT = 
-`Ashutosh, a scientist so bright,
+export const ABOUT_TEXT =
+  `Ashutosh, a scientist so bright,
 uses lasers to trap particles in sight.
 Communicating science with passion and zeal,
 breaking down barriers, making knowledge real.`
 
-export const PROFESSIONAL_BIO = 
-`I am Ashutosh Shukla, currently pursuing my research as a scholar at the Indian Institute of Science Education and Research (IISER) Pune, India.
+export const PROFESSIONAL_BIO =
+  `I am Ashutosh Shukla, currently pursuing my research as a scholar at the Indian Institute of Science Education and Research (IISER) Pune, India.
 
 I utilize optical tweezers to investigate colloidal and nanoparticle systems, with a focus on developing novel techniques to trap and manipulate nanoparticles for applications in materials science and biomedicine.
 

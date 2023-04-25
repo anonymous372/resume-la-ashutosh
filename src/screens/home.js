@@ -11,8 +11,8 @@ import { HOME_TEXT } from "../constants/data";
 
 const Home = () => {
 
-  const [autoPlayState, setAutoPlayState] = useState(true);
-  const [slideToIndex, setSlideToIndex] = useState(0);
+  const [ autoPlayState, setAutoPlayState ] = useState( true );
+  const [ slideToIndex, setSlideToIndex ] = useState( 0 );
   const images = [
     {
       original: me1,
@@ -34,14 +34,14 @@ const Home = () => {
   // console.log()
   return (
     <div className="pt-16">
-      <h1 className="font-semibold text-2xl text-center">
+      <h1 className="mt-10 font-semibold text-2xl sm:text-3xl text-center">
         Hi, I am Ashutosh Shukla
       </h1>
-      <h2 className="mt-2 text-lg text-center">
-        {HOME_TEXT}
+      <h2 className="mt-2 mb-8 text-lg sm:text-xl text-center whitespace-pre-line">
+        { HOME_TEXT }
       </h2>
-      <div className="py-16 reimga">
-        <ReactImageGallery items={images} autoPlay/>
+      <div className="py-2 shadow-md reimga" style={ { marginBottom: "24px" } }>
+        <ReactImageGallery items={ images } autoPlay slideInterval={ 5000 } slideDuration={ 1000 } />
       </div>
     </div>
   );
