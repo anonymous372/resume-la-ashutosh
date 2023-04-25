@@ -8,61 +8,61 @@ const About = () => {
   const navigate = useNavigate();
   return (
     <div className="px-0 sm:px-10 lg:px-20 pt-8">
-      <h1 className="md:mx-0 mx-auto text-3xl w-fit md:px-4 px-16 py-1 bg-blue-200 text-gray-700 shadow rounded text-gray-800 font-bold mb-4">
+      <h1 className="md:mx-0 mx-auto text-3xl sm:w-fit sm:text-left text-center md:px-4 px-16 py-1 bg-blue-200 text-gray-700 shadow rounded text-gray-800 font-bold mb-4">
         About
       </h1>
-      {/* Flex box */}
-      <div className="flex flex-col md:flex-row md:items-start items-center gap-8 lg:gap-16">
-        {/* Image & Subtext */}
+      {/* Flex box */ }
+      <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-16">
+        {/* Image & Subtext */ }
         <div>
-          {/* Image Container */}
+          {/* Image Container */ }
           <div className="w-64 h-64 rounded flex items-start justify-between overflow-hidden">
             <img
-              src={image}
+              src={ image }
               className="outline-offset-0 border-blue-400 border-r-[6px] border-b-[8px] transition-transform hover:scale-110"
               title="Ashutosh Shukla"
             ></img>
           </div>
           <p className="hidden">Photo by ---</p>
         </div>
-        {/* About */}
+        {/* About */ }
         <div className="w-full">
-          <div className="shadow bg-sky-100 max-w-2xl rounded-md p-2 p-4">
+          <div className="shadow bg-sky-100 max-w-2xl rounded-md p-2 sm:p-4 md:text-left text-center">
             <h1 className="text-xl text-gray-800 font-medium mb-2">About Me</h1>
-            <p className="text-lg text-gray-700 whitespace-pre-wrap">
-              {ABOUT_TEXT}
+            <p className="text-lg text-gray-700 sm:text-normal text-[19px] whitespace-pre-wrap">
+              { ABOUT_TEXT }
             </p>
           </div>
         </div>
       </div>
 
-      {/*Personal Bio  */}
+      {/*Personal Bio  */ }
       <div className="mt-16 bg-gray-100 rounded">
         <div className="rounded-md p-2 p-4">
           <h1 className="text-2xl text-gray-800 font-medium mb-2">
             Professional Bio
           </h1>
           <p className="text-lg text-gray-700 whitespace-pre-line">
-            {PROFESSIONAL_BIO}
+            { PROFESSIONAL_BIO }
           </p>
         </div>
       </div>
-      {/* CV */}
+      {/* CV */ }
       <div className="mt-8 mb-4 py-2 px-4 border-t-4 border-blue-300">
         <h1 className="text-xl font-medium underline mb-2">Curriculum vitae</h1>
         <div className="flex justify-between sm:ustify-start gap-10">
           <p
             className="underline items-center gap-1 flex text-lg text-blue-500 cursor-pointer"
-            onClick={() => window.open(CV_LINK, "_blank")}
+            onClick={ () => window.open( CV_LINK, "_blank" ) }
           >
-            Latest CV <img src={link_img} className="w-5 h-5"></img>
+            Latest CV <img src={ link_img } className="w-5 h-5"></img>
           </p>
           <button
             className="bg-gray-100 rounded border p-1 active:scale-95"
-            onClick={() => navigator.clipboard.writeText(CV_LINK)}
+            onClick={ () => navigator.clipboard.writeText( CV_LINK ) }
             title="Copy Link"
           >
-            <img src={copy_img} className="w-6 h-6"></img>
+            <img src={ copy_img } className="w-6 h-6"></img>
           </button>
         </div>
       </div>

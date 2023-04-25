@@ -21,101 +21,101 @@ import researchgate_img from "../constants/images/ResearchGate.png";
 const Contact = () => {
   return (
     <div
-      style={{ height: "calc(100vh - 56px)" }}
+      style={ { height: "calc(100vh - 56px)" } }
       className="pt-6 overflow-hidden"
     >
-      {/* Profile Container */}
+      {/* Profile Container */ }
       <div className="mb-20">
         <div className="flex items-center justify-center flex-col gap-6">
-          {/* Image */}
-          <div className="shadow-md rounded-full h-32 w-32 sm:h-40 sm:w-40 overflow-hidden">
-          <img
-            src={image}
-            className="object-cover h-full w-full"
-          ></img>
+          {/* Image */ }
+          <div className="shadow-md rounded-full h-40 w-40 sm:h-48 sm:w-48 overflow-hidden">
+            <img
+              src={ image }
+              className="object-cover h-full w-full"
+            ></img>
           </div>
-          {/* Text */}
-          <div className="text-xl max-w-lg text-center text-gray-700 whitespace-pre-line">
-            {CONTACT_TEXT}
+          {/* Text */ }
+          <div className="text-[24px] max-w-lg text-center text-gray-700 whitespace-pre-line">
+            { CONTACT_TEXT }
           </div>
         </div>
       </div>
 
-      {/* Shadow */}
+      {/* Shadow */ }
       <div className="relative">
         <div className="opacity-40 bg-white rounded-full absolute -top-20 left-1/2 -translate-x-1/2 w-96 h-96 sm:w-[500px] sm:h-[500px] bg-gray-100"></div>
       </div>
 
-      {/* Links Container */}
+      {/* Links Container */ }
       <div className="relative mx-auto border-4 border w-80 sm:w-96 sm:p-3 p-2 shadow-md rounded-md">
-        {/* Header */}
+        {/* Header */ }
         <h1 className="mb-2 border-b-2 border-gray-200 text-xl text-center md:text-3xl font-medium text-gray-700">
           Contacts
         </h1>
         <div className="px-4">
-          {/* Gmail */}
+          {/* Gmail */ }
           <div className="flex items-center gap-4 py-2 border-b-2 border-gray-100">
             <span className="p-1 bg-gray-100 rounded">
-              <img src={mail_img} className="w-6 h-6"></img>
+              <img src={ mail_img } className="w-6 h-6"></img>
             </span>
             <a
               className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
-              href={`mailto:${GMAIL}`}
+              href={ `mailto:${ GMAIL }` }
               target="_blank"
             >
-              {GMAIL}
+              { GMAIL }
             </a>
           </div>
-          {/* Linkedin */}
+          {/* Linkedin */ }
           <div className="flex items-center gap-4 py-2  border-b-2 border-gray-100">
             <span className="p-1 bg-gray-100 rounded">
-              <img src={linkedin_img} className="w-6 h-6"></img>
+              <img src={ linkedin_img } className="w-6 h-6"></img>
             </span>
             <a
               className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
-              href={LINKEDIN_LINK}
+              href={ LINKEDIN_LINK }
               target="_blank"
             >
-              {LINKEDIN_TEXT}
+              { LINKEDIN_TEXT }
             </a>
           </div>
-          {/* Google Scholar */}
+          {/* Google Scholar */ }
           <div className="flex items-center gap-4 py-2  border-b-2 border-gray-100">
             <span className="p-1 bg-gray-100 rounded">
-              <img src={scholar_img} className="w-6 h-6"></img>
+              <img src={ scholar_img } className="w-6 h-6"></img>
             </span>
             <a
               className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
-              href={GOOGLESCHOLAR_LINK}
+              href={ GOOGLESCHOLAR_LINK }
               target="_blank"
             >
-              {GOOGLESCHOLAR_TEXT}
+              { GOOGLESCHOLAR_TEXT }
             </a>
           </div>
-          {/* ResearchGate */}
+          {/* ResearchGate */ }
           <div className="flex items-center gap-4 py-2  border-b-2 border-gray-100">
             <span className="p-1 bg-gray-100 rounded">
-              <img src={researchgate_img} className="w-6 h-6"></img>
+              <img src={ researchgate_img } className="w-6 h-6"></img>
             </span>
             <a
               className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
-              href={RESEARCHGATE_LINK}
+              href={ RESEARCHGATE_LINK }
               target="_blank"
             >
-              {RESEARCHGATE_TEXT}
+              { RESEARCHGATE_TEXT }
             </a>
           </div>
-          {/* Youtube Channel */}
+          {/* Youtube Channel */ }
           <div className="flex items-center gap-4 py-2">
             <span className="p-1 bg-gray-100 rounded">
-              <img src={youtube_img} className="w-6 h-6"></img>
+              <img src={ youtube_img } className="w-6 h-6"></img>
             </span>
             <a
               className="text-base decoration-2 hover:underline hover:underline-offset-3 text-blue-500 cursor-pointer"
-              href={YOUTUBE_LINK}
+              href={ YOUTUBE_LINK }
               target="_blank"
             >
-              {YOUTUBE_TEXT}
+              { YOUTUBE_TEXT }
             </a>
           </div>
         </div>

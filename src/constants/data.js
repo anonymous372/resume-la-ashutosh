@@ -97,9 +97,7 @@ breaking down barriers, making knowledge real.`
 
 export const PROFESSIONAL_BIO =
   `I am Ashutosh Shukla, currently pursuing my research as a scholar at the Indian Institute of Science Education and Research (IISER) Pune, India.
-
 I utilize optical tweezers to investigate colloidal and nanoparticle systems, with a focus on developing novel techniques to trap and manipulate nanoparticles for applications in materials science and biomedicine.
 
 In addition to my research, I am an experienced science communicator and outreach enthusiast. I run two YouTube channels, 'No Clickbait Physics' and 'Vlog My PhD,' where I break down complex scientific concepts and make them accessible to non-academic audiences.
-
 I have a keen interest in interacting with school and college students, where I explain science and physics concepts using simple demonstrations. I am committed to making science accessible and engaging for everyone and to inspiring the next generation of scientists.`

@@ -11,12 +11,13 @@ const Teaching = () => {
 			</h1>
 			<p className="text-right mb-10 italic">~ Teaching is an art.</p>
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8">
-				<h1 className="text-2xl text-gray-700">Teaching Assistantship</h1>
+				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Teaching Assistantship</h1>
 				{ TEACHINGS.filter( ( x ) => x.title === "Teaching Assistantship" ).map(
-					( elem ) => {
+					( elem, idx ) => {
+						let id = TEACHINGS.filter( x => x.title === "Teaching Assistantship" ).length - 1;
 						return (
-							<div className="flex gap-10 justify-between pl-4 pr-2 py-3 mt-4">
-								<div className="text-xl text-zinc-500">{ elem.description }</div>
+							<div className={ `flex ${ idx != id && "sm:border-0 border-b-2" } sm:flex-row flex-col gap-2 sm:gap-10 justify-between pl-4 pr-2 py-3 mt-4` }>
+								<div className="text-xl text-zinc-600">{ elem.description }</div>
 								<div className="text-xl text-zinc-400 italic lg:whitespace-nowrap">
 									{ elem.interval }
 								</div>
@@ -26,18 +27,19 @@ const Teaching = () => {
 				) }
 			</div>
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded-md bg-slate-50">
-				<h1 className="text-2xl text-gray-700">Teachings</h1>
-				{ TEACHINGS.filter( ( x ) => x.title === "Teaching" ).map( ( elem ) => {
+				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Teachings</h1>
+				{ TEACHINGS.filter( ( x ) => x.title === "Teaching" ).map( ( elem, idx ) => {
+					let id = TEACHINGS.filter( x => x.title === "Teaching" ).length - 1;
 					return (
 						<>
-							<div className="flex gap-10 justify-between pl-4 pr-2 py-3 mt-4">
-								<div className="text-xl text-zinc-500">{ elem.description }</div>
+							<div className={ `flex ${ idx != id && "sm:border-0 border-b-2" } sm:flex-row flex-col gap-2 sm:gap-10 justify-between pl-4 pr-2 py-3 mt-4` }>
+								<div className="text-xl text-zinc-600">{ elem.description }</div>
 								<div className="text-xl italic text-zinc-400 lg:whitespace-nowrap">
 									{ elem.interval }
 								</div>
 							</div>
 							{ elem.extraText && (
-								<div className="text-lg text-zinc-500 font-medium px-4 -mt-4 mb-2">
+								<div className="text-lg text-zinc-600 font-medium px-4 sm:-mt-4 -mt-2 mb-2">
 									{ elem.extraText }{ " " }
 									<span
 										onClick={ () => window.open( elem.extraLink, "_blank" ) }
