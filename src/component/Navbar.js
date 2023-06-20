@@ -1,6 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../constants/images/logo.jpg";
 import sidebar_img from "../constants/images/sidebar_icon.png";
+
 const Navbar = ( { open, setOpen } ) => {
   const path = useLocation().pathname;
   const navigate = useNavigate();
@@ -52,7 +53,7 @@ const Navbar = ( { open, setOpen } ) => {
         >
           Teaching
         </Link>
-        {/* <Link
+        <Link
           to="/blog"
           className={`flex items-center px-5 py-1 bg-slate-50 rounded-full border-2 ${
             path === "/blog"
@@ -61,7 +62,7 @@ const Navbar = ( { open, setOpen } ) => {
           }`}
         >
           Blog
-        </Link> */}
+        </Link>
         <Link
           to="/contact"
           className={ `flex items-center px-5 py-1 bg-slate-50 rounded-full border-2 ${ path === "/contact"
