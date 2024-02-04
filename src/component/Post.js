@@ -18,7 +18,7 @@ function Post() {
     return (
         <div className='w-[100%] pt-16 flex justify-center'>
             <div className="box-border w-[70%] px-[5%] flex justify-between max-[1000px]:items-center max-[1000px]:w-[90%] max-[1000px]:flex-col">
-                <div class='sk-ww-medium-publication-feed' data-embed-id='156712'></div>
+                <div class='sk-ww-medium-publication-feed' data-embed-id='25358793'></div>
             </div>
         </div>
      );
