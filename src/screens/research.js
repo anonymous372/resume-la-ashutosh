@@ -14,6 +14,10 @@ import vis2 from "../constants/images/vis4.gif"
 const Research = () => {
   const images = [
     {
+      original: researchArea,
+      thumbnail: researchArea,
+    },
+    {
       original: starry,
       thumbnail: thumbnail1,
     },
@@ -25,10 +29,7 @@ const Research = () => {
       original: vis2,
       thumbnail: thumbnail3,
     },
-    {
-      original: researchArea,
-      thumbnail: researchArea,
-    },
+    
   ];
   return (
     <div className="pt-4 sm:px-10">
