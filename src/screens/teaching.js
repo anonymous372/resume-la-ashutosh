@@ -6,10 +6,7 @@ import { TEACHINGS } from "../constants/data";
 const Teaching = () => {
 	return (
 		<div className="">
-			<h1 className="text-center text-4xl pt-6 mb-3">
-				What, Where, When
-			</h1>
-			<p className="text-right mb-10 italic">~ Teaching is an art.</p>
+			
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8">
 				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Teaching Assistantship</h1>
 				{ TEACHINGS.filter( ( x ) => x.title === "Teaching Assistantship" ).map(
@@ -62,6 +59,10 @@ export default Teaching;
 // Teaching Assistant for optics, PH3114, IISER Pune
 // Teaching Assistant for Physics Lab II IISER Pune
 // FC, Physics faculty 2023 February
+//<h1 className="text-center text-4xl pt-6 mb-3">
+				//What, Where, When
+			//</h1>
+			//<p className="text-right mb-10 italic">~ Teaching is an art.</p>
 
 // Contact
 // Name & email & address
