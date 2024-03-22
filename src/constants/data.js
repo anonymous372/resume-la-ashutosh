@@ -76,11 +76,11 @@ export const PUBLICATIONS = [
     subTitle: "2D Mater., 10 (4), 045009 (2023)",
     link: "https://dx.doi.org/10.1088/2053-1583/aceb74",
     authors: [
-      "Divya Nechiyil".
+      "Divya Nechiyil",
       "Gokul M. A.",
       "Ashutosh Shukla",
       "G V Pavan Kumar",
-      "Atikur Rahman"
+      "Atikur Rahman",
     ],
     description:
       "Collaborative work where i contributed in the spectroscopy.",
@@ -104,7 +104,7 @@ export const PUBLICATIONS = [
       "Directing monolayer tungsten disulfide photoluminescence using a bent-plasmonic nanowire on a mirror cavity",
     subTitle: "Eur. Phys. J. Spec. Top. 231, 807–813 (2022)",
     link: "https://doi.org/10.1140/epjs/s11734-022-00511-y",
-    authors: [ "Shailendra Chaubey", "Sunny Tiwari", "Ashutosh Shukla" ],
+    authors: [ "Shailendra Chaubey", "Sunny Tiwari", "Ashutosh Shukla", ],
     description:
       
       "We show that a bent silver nanowire placed on a gold mirror acts as a waveguide and transports the photoluminescence emitted at one end from a 2D material can be transported along the length and emitted at the kink in a small range of angles.",
