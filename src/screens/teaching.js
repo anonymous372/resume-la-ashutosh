@@ -5,7 +5,7 @@ import { TEACHINGS } from "../constants/data";
 
 const Teaching = () => {
 	return (
-		<div className="">
+		<div className="pt-12">
 			
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8">
 				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Teaching Assistantship</h1>
