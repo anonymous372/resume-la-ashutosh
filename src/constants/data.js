@@ -1,6 +1,6 @@
 // Constant Strings
 export const CV_LINK =
-  "https://drive.google.com/file/d/1mwbcA8VRdYb-xI2dhyGgs0Jj-AY-ISTS/view";
+  "https://drive.google.com/drive/folders/1mw6Dzlk6cI5mlO5hdeY6yhqk7AMnFkBA?usp=sharing";
 export const GMAIL = "ashooshukla@gmail.com";
 export const LINKEDIN_LINK =
   "https://www.linkedin.com/in/ashutoshshukla9871946911/";
@@ -40,15 +40,27 @@ export const TEACHINGS = [
     interval: "Spring semester 2023",
   },
   {
-    title: "Teaching",
+    title: "PMRF Teaching",
     description:
       "Teaching the course PHY202 at Interdisciplinary school of science, Pune University",
-    interval: "Spring semester 2023",
+    interval: "Spring semester 2024",
+    extraText: "Course Notes can be found",
+    extraLink:
+      "https://drive.google.com/drive/folders/1UEd5wxSPtN3BxXrp_leZ0KF2YsSGJvT7",
   },
   {
-    title: "Teaching",
+    title: "PMRF Teaching",
     description:
-      "Teaching Physics 102 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
+      "Taught Physics 102 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
+    interval: "Autumn semester 2023",
+    extraText: "Course Notes can be found",
+    extraLink:
+      "https://drive.google.com/drive/folders/1Tr9Pzi7CY01wf2tW8PBymkKCJjXGbN06?usp=sharing",
+  },
+  {
+    title: "PMRF Teaching",
+    description:
+      "Taught Physics 202 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
     interval: "Spring semester 2023",
     extraText: "Course Notes can be found",
     extraLink:
