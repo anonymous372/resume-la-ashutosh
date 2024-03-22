@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <div
       style={ { height: "calc(100vh - 56px)" } }
-      className="pt-6 overflow-scroll"
+      className="pt-6"
     >
       {/* Profile Container */ }
       <div className="mb-20">
