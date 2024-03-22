@@ -71,16 +71,15 @@ const Research = () => {
                     >
                       { author },{ " " }
                     </span>
+                                   
+                  ) ) }
+                </p>
                 {/* Publication detail */ }
                 <p className="text-gray-600 sm:text-lg">{ paper.subtitle }</p>
-                
-                  ) ) }
-                </p>
+
                 {/* Description */ }
                 <p className="text-gray-600 sm:text-lg">{ paper.description }</p>
-                
-                  ) ) }
-                </p>
+
                 <a target="_blank" className="text-blue-600 sm:text-lg" href={ paper.link }>
                   <span className="hover:underline">Link</span>{ " " }
                   <span className="text-md text-wrap hover:text-blue-700">

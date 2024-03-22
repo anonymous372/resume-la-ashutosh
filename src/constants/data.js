@@ -84,7 +84,12 @@ export const PUBLICATIONS = [
     ],
     description:
       "Collaborative work where i contributed in the spectroscopy.",
+<<<<<<< HEAD
   },{
+=======
+  },
+  {
+>>>>>>> 4c5055c8a43f8e3932f2f7ac3ebc9291c7effbda
     title:
       "Optothermal Trapping of Fluorescent Nanodiamonds using a Drop-casted Gold Nanoparticle",
     subTitle: "Opt. Lett., OL 48, 2937 (2023)",
