@@ -33,7 +33,7 @@ const Research = () => {
         <h1 className="mt-2 sm:mt-8 mb-6 text-center text-xl sm:text-3xl text-blue-400 text-bold md:w-[60%]">
           We use light to drive our soft matter system out of equilibrium and use light to study the system as well.
         </h1>
-        <img src={ researchArea } className="md:w-[50%]" />
+        // <img src={ researchArea } className="md:w-[50%]" />
       </div>
       {/* Slideshow */ }
       <div className="rounded-md border-t-4 border-gray-200 bg-blue-50">
