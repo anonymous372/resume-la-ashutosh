@@ -77,7 +77,7 @@ export const PUBLICATIONS = [
     link: "https://dx.doi.org/10.1088/2053-1583/aceb74",
     authors: [
       "Divya Nechiyil".
-      "Gokul M. A."
+      "Gokul M. A.",
       "Ashutosh Shukla",
       "G V Pavan Kumar",
       "Atikur Rahman"
