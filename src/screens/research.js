@@ -25,6 +25,10 @@ const Research = () => {
       original: vis2,
       thumbnail: thumbnail3,
     }
+    {
+      original: researchArea,
+      thumbnail: researchArea,
+    }
   ];
   return (
     <div className="pt-4 sm:px-10">
