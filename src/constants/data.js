@@ -72,9 +72,23 @@ export const TEACHINGS = [
 export const PUBLICATIONS = [
   {
     title:
+      "Strain-Enabled Defect Migration and Defect Activation in Monolayer",
+    subTitle: "2D Mater., 10 (4), 045009 (2023)",
+    link: "https://dx.doi.org/10.1088/2053-1583/aceb74",
+    authors: [
+      "Divya Nechiyil".
+      "Gokul M. A."
+      "Ashutosh Shukla",
+      "G V Pavan Kumar",
+      "Atikur Rahman"
+    ],
+    description:
+      "Collaborative work where i contributed in the spectroscopy.",
+  },
+    title:
       "Optothermal Trapping of Fluorescent Nanodiamonds using a Drop-casted Gold Nanoparticle",
-    subTitle: "",
-    link: "https://arxiv.org/abs/2210.02874",
+    subTitle: "Opt. Lett., OL 48, 2937 (2023)",
+    link: "https://opg.optica.org/ol/abstract.cfm?uri=ol-48-11-2937",
     authors: [
       "Ashutosh Shukla",
       "Sunny Tiwari",
@@ -83,16 +97,18 @@ export const PUBLICATIONS = [
       "G V Pavan Kumar",
     ],
     description:
-      "We show that a bent silver nanowire placed on a gold mirror acts as a waveguide and transports the photoluminescence emitted at one end from a 2D material can be transported along the length and emitted at the kink in a small range of angles.",
+      "We show that fluorescent nanodiamonds can be trapped using a gold nanoparticle as a heat source. The nanodiamond is trapped on the heat source gold particle by an opto-thermoelectric field generated due to the presence of a surfactant.",
   },
   {
     title:
       "Directing monolayer tungsten disulfide photoluminescence using a bent-plasmonic nanowire on a mirror cavity",
-    subTitle: "",
+    subTitle: "Eur. Phys. J. Spec. Top. 231, 807–813 (2022)",
     link: "https://doi.org/10.1140/epjs/s11734-022-00511-y",
     authors: [ "Shailendra Chaubey", "Sunny Tiwari", "Ashutosh Shukla" ],
     description:
-      "We show that fluorescent nanodiamonds can be trapped using a gold nanoparticle as a heat source. The nanodiamond is trapped on the heat source gold particle by an opto-thermoelectric field generated due to the presence of a surfactant.",
+      
+      "We show that a bent silver nanowire placed on a gold mirror acts as a waveguide and transports the photoluminescence emitted at one end from a 2D material can be transported along the length and emitted at the kink in a small range of angles.",
+      
   },
 ];
 
