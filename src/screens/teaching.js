@@ -27,9 +27,9 @@ const Teaching = () => {
 				) }
 			</div>
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded-md bg-slate-50">
-				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Teachings</h1>
-				{ TEACHINGS.filter( ( x ) => x.title === "Teaching" ).map( ( elem, idx ) => {
-					let id = TEACHINGS.filter( x => x.title === "Teaching" ).length - 1;
+				<h1 className="text-2xl text-gray-700 sm:text-left text-center">PMRF Teaching</h1>
+				{ TEACHINGS.filter( ( x ) => x.title === "PMRF Teaching" ).map( ( elem, idx ) => {
+					let id = TEACHINGS.filter( x => x.title === "PMRF Teaching" ).length - 1;
 					return (
 						<>
 							<div className={ `flex ${ idx != id && "sm:border-0 border-b-2" } sm:flex-row flex-col gap-2 sm:gap-10 justify-between pl-4 pr-2 py-3 mt-4` }>
