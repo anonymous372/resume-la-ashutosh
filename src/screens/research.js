@@ -67,6 +67,11 @@ const Research = () => {
                     >
                       { author },{ " " }
                     </span>
+                   {/* Publication detail */ }
+                <p className="text-gray-600 sm:text-lg">{ paper.subtitle }</p>
+                
+                  ) ) }
+                </p>
                 {/* Description */ }
                 <p className="text-gray-600 sm:text-lg">{ paper.description }</p>
                 
