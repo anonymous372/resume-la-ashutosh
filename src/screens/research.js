@@ -56,8 +56,6 @@ const Research = () => {
                 <div className="flex items-center">
                   <li className="text-xl sm:text-2xl list-disc">{ paper.title }</li>
                 </div>
-                {/* Description */ }
-                <p className="text-gray-600 sm:text-lg">{ paper.description }</p>
                 {/* Authors */ }
                 <p className="mt-2 sm:text-lg">
                   <span className="font-semibold">Authors: </span>
@@ -69,6 +67,9 @@ const Research = () => {
                     >
                       { author },{ " " }
                     </span>
+                {/* Description */ }
+                <p className="text-gray-600 sm:text-lg">{ paper.description }</p>
+                
                   ) ) }
                 </p>
                 <a target="_blank" className="text-blue-600 sm:text-lg" href={ paper.link }>
