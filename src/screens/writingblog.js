@@ -8,7 +8,7 @@ const Teaching = () => {
 		<div className="pt-12">
 			
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8">
-				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Teaching Assistantship</h1>
+				<h1 className="text-2xl text-gray-700 sm:text-left text-center">First Blog</h1>
 				{ TEACHINGS.filter( ( x ) => x.title === "First Blog" ).map(
 					( elem, idx ) => {
 						let id = TEACHINGS.filter( x => x.title === "Teaching Assistantship" ).length - 1;
