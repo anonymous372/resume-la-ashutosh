@@ -19,17 +19,30 @@ const Home = () => {
       thumbnail: me1,
     },
     {
-      original: me2,
-      thumbnail: me2,
-    },
-    {
-      original: me3,
-      thumbnail: me3,
-    },
-    {
       original: me4,
       thumbnail: me4,
     },
+    {
+      original: image1,
+      thumbnail: image1,
+    },
+    {
+      original: image2,
+      thumbnail: image2,
+    },
+    {
+      original: image4,
+      thumbnail: image4,
+    },
+    {
+      original: image6,
+      thumbnail: image6,
+    },
+    {
+      original: image7,
+      thumbnail: image7,
+    },
+    
   ];
   // console.log()
   return (
