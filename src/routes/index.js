@@ -6,7 +6,7 @@ import Teaching from "../screens/teaching";
 import Contact from "../screens/contact";
 import NoMatch from "../screens/noMatch";
 import Home from "../screens/home";
-import Post from "../screens/writing_blog";
+import Post from "../screens/writingblog";
 
 const router = createBrowserRouter([
   {
