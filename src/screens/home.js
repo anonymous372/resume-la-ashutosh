@@ -3,9 +3,12 @@ import ReactImageGallery from "react-image-gallery";
 import "./home.css";
 import { useState } from "react";
 import me1 from "../constants/images/me1.jpg";
-import me2 from "../constants/images/me2.jpg";
-import me3 from "../constants/images/me3.jpg";
+import image2 from "../constants/images/image2.jpg";
+import image1 from "../constants/images/image1.jpg";
 import me4 from "../constants/images/me4.jpg";
+import image4 from "../constants/images/image4.jpg";
+import image6 from "../constants/images/image6.jpg";
+import image7 from "../constants/images/image7.jpg";
 import { HOME_TEXT } from "../constants/data";
 
 
