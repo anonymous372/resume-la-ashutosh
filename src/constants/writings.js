@@ -18,8 +18,8 @@ export const TEACHINGS = [
   {
     title: "What is Lorem Ipsum?",
     description:
-      "Teaching assistant in PH4233 Advanced Physics Lab with Prof G V, Pavan Kumar",
-    interval: "Spring semester 2023",
+      "I want the loop on this screen redefined to have this entry with a separate title in separate block",
+    interval: "also i'll try to remove this thing.",
   },
 ];
 
