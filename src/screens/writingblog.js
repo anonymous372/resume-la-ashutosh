@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { TEACHINGS } from "../constants/data";
+import { TEACHINGS } from "../constants/writings";
 
 const Teaching = () => {
 	return (
