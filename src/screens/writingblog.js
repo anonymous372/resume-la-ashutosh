@@ -8,10 +8,10 @@ const Teaching = () => {
 		<div className="pt-12">
 			
 			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8">
-				<h1 className="text-2xl text-gray-700 sm:text-left text-center">First Blog</h1>
-				{ TEACHINGS.filter( ( x ) => x.title === "First Blog" ).map(
+				<h1 className="text-2xl text-gray-700 sm:text-left text-center">First Blog: What is Lorem Ipsum?</h1>
+				{ TEACHINGS.filter( ( x ) => x.title === "What is Lorem Ipsum?" ).map(
 					( elem, idx ) => {
-						let id = TEACHINGS.filter( x => x.title === "Teaching Assistantship" ).length - 1;
+						let id = TEACHINGS.filter( x => x.title === "What is Lorem Ipsum?" ).length - 1;
 						return (
 							<div className={ `flex ${ idx != id && "sm:border-0 border-b-2" } sm:flex-row flex-col gap-2 sm:gap-10 justify-between pl-4 pr-2 py-3 mt-4` }>
 								<div className="text-xl text-zinc-600">{ elem.description }</div>
