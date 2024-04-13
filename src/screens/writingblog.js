@@ -23,33 +23,7 @@ const Teaching = () => {
 					}
 				) }
 			</div>
-			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded-md bg-slate-50">
-				<h1 className="text-2xl text-gray-700 sm:text-left text-center">Second Blog</h1>
-				{ TEACHINGS.filter( ( x ) => x.title === "PMRF Teaching" ).map( ( elem, idx ) => {
-					let id = TEACHINGS.filter( x => x.title === "PMRF Teaching" ).length - 1;
-					return (
-						<>
-							<div className={ `flex ${ idx != id && "sm:border-0 border-b-2" } sm:flex-row flex-col gap-2 sm:gap-10 justify-between pl-4 pr-2 py-3 mt-4` }>
-								<div className="text-xl text-zinc-600">{ elem.description }</div>
-								<div className="text-xl italic text-zinc-400 lg:whitespace-nowrap">
-									{ elem.interval }
-								</div>
-							</div>
-							{ elem.extraText && (
-								<div className="text-lg text-zinc-600 font-medium px-4 sm:-mt-4 -mt-2 mb-2">
-									{ elem.extraText }{ " " }
-									<span
-										onClick={ () => window.open( elem.extraLink, "_blank" ) }
-										className="text-blue-500 cursor-pointer"
-									>
-										here
-									</span>
-								</div>
-							) }
-						</>
-					);
-				} ) }
-			</div>
+			
 		</div>
 	);
 };
