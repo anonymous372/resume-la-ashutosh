@@ -1,29 +1,34 @@
 import { useState } from "react";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { TEACHINGS } from "../constants/writings";
+import { BLOGS, TEACHINGS } from "../constants/writings";
 
 const Teaching = () => {
 	return (
-		<div className="pt-12">
-			
-			<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8">
-				<h1 className="text-2xl text-gray-700 sm:text-left text-center">First Blog: What is Lorem Ipsum?</h1>
-				{ TEACHINGS.filter( ( x ) => x.title === "What is Lorem Ipsum?" ).map(
-					( elem, idx ) => {
-						let id = TEACHINGS.filter( x => x.title === "What is Lorem Ipsum?" ).length - 1;
-						return (
-							<div className={ `flex ${ idx != id && "sm:border-0 border-b-2" } sm:flex-row flex-col gap-2 sm:gap-10 justify-between pl-4 pr-2 py-3 mt-4` }>
-								<div className="text-xl text-zinc-600">{ elem.description }</div>
-								<div className="text-xl text-zinc-400 italic lg:whitespace-nowrap">
-									{ elem.interval }
-								</div>
-							</div>
-						);
-					}
-				) }
-			</div>
-			
+		<div className="pt-12 h-auto">
+			{ BLOGS.map(( blog, idx ) => {
+				return (
+					<div className="flex flex-col mx-auto max-w-5xl border border-[3px] px-4 py-2 rounded bg-slate-50 mb-8 text-2xl text-gray-700 sm:text-left text-center">
+						<h1>{blog.title}</h1>
+						<div className={ `sm:border-0 border-b-2 justify-between pl-4 pr-2 py-3 mt-4` }>
+							<div className="text-xl text-zinc-600">{ blog.description }</div>
+						</div>
+							<div className="text-slate-400 text-sm flex gap-6">
+								<span className="text-slate-600">References:</span>
+								{
+								blog.references.map((ref, idx)=>{
+								return (
+									<a href={ref.link} className="text-blue-400 relative" target="blank">
+										<span className="text-slate-400 mr-1">[{idx}]</span>
+										{ref.text}
+									</a>
+								)})
+								}
+						</div>
+					</div>
+					);
+				}
+			) }
 		</div>
 	);
 };

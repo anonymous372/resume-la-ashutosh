@@ -21,7 +21,6 @@ import researchgate_img from "../constants/images/ResearchGate.png";
 const Contact = () => {
   return (
     <div
-      style={ { height: "calc(100vh - 56px)" } }
       className="pt-6"
     >
       {/* Profile Container */ }

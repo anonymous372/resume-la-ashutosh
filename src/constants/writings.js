@@ -2,9 +2,9 @@
 export const BLOGS = [
   {
     title: "What is Life?",
-    description: "link to a video of stupid falling kids",
-    dateofentry: "/today",
-    references: "1. here is another link. 2. here is another another link",
+    description: "link to a video of stupid falling kids. Oh Sorry i forgot that this is a course in pictorial imagery so you will have to image the scenery as i describe it. Just imagine!",
+    dateofentry: new Date("2024-04-28").toLocaleDateString(),
+    references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
   },
 ];
 
@@ -16,9 +16,9 @@ export const TEACHINGS = [
     interval: "The blog page is still under construction. Please visit other pages.",
   },
   {
-    title: "What is Lorem Ipsum?",
+    title: "How to make a blog",
     description:
-      "I want the loop on this screen redefined to have this entry with a separate title in separate block",
+      "Add",
     interval: "also i'll try to remove this thing.",
   },
 ];

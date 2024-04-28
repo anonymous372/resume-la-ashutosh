@@ -54,6 +54,16 @@ const Sidebar = ({ open, setOpen }) => {
               Teaching
             </Link>
             <Link
+              to="/blog"
+              className={`flex rounded items-center w-full pl-2 pr-5 py-2 hover:bg-slate-50 border-l-4 ${
+                path === "/blog"
+                  ? "border-blue-500 bg-gray-50"
+                  : "border-transparent hover:border-gray-200"
+              }`}
+            >
+              Blog
+            </Link>
+            <Link
               to="/contact"
               className={`flex rounded items-center w-full pl-2 pr-5 py-2 hover:bg-slate-50 border-l-4 ${
                 path === "/contact"
