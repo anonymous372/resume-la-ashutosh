@@ -4,7 +4,7 @@ export const BLOGS = [
     title: "My first online article!",
     description: "I published an science news article with a news platform called Newslaundry. This story on Chandrayaan 3 was done on their request. The link to the article is given below. I discuss the objectives of the Chandrayaan 3 mission and what information the probe will collect. The article is titled: Space weather, tectonic activity, solar history: All that Chandrayaan-3 is likely to unravel. - August 25th, 2023",
     dateofentry: new Date("2024-04-29").toLocaleDateString(),
-    references: [{text:"Here is the link to the article.", link:"https://www.newslaundry.com/2023/08/24/space-weather-tectonic-activity-solar-history-all-that-chandrayaan-3-is-likely-to-unravel"},],
+    references: [{text:"Here is the link to the article.", link:"https://www.newslaundry.com/2023/08/24/space-weather-tectonic-activity-solar-history-all-that-chandrayaan-3-is-likely-to-unravel"}],
   },
   {
     title: "What is Life?",
