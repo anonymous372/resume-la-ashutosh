@@ -1,15 +1,15 @@
 // Constant Strings
 export const BLOGS = [
   {
+    title: "My first online article!",
+    description: "I published an science news article with a news platform called Newslaundry. This story on Chandrayaan 3 was done on their request. The link to the article is given below. I discuss the objectives of the Chandrayaan 3 mission and what information the probe will collect. The article is titled: Space weather, tectonic activity, solar history: All that Chandrayaan-3 is likely to unravel. - August 25th, 2023",
+    dateofentry: new Date("2024-04-29").toLocaleDateString(),
+    references: [{text:"Here is the link to the article.", link:"https://www.newslaundry.com/2023/08/24/space-weather-tectonic-activity-solar-history-all-that-chandrayaan-3-is-likely-to-unravel"},],
+  },
+  {
     title: "What is Life?",
     description: "link to a video of stupid falling kids. Oh Sorry i forgot that this is a course in pictorial imagery so you will have to image the scenery as i describe it. Just imagine!",
     dateofentry: new Date("2024-04-28").toLocaleDateString(),
-    references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
-  },
-  {
-    title: "What is Life??? (With more Question marks)",
-    description: "link to a video of stupid falling kids. and less sarcasm",
-    dateofentry: new Date("2024-04-29").toLocaleDateString(),
     references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
   },
 ];
