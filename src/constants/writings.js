@@ -6,6 +6,12 @@ export const BLOGS = [
     dateofentry: new Date("2024-04-28").toLocaleDateString(),
     references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
   },
+  {
+    title: "What is Life??? (With more Question marks)",
+    description: "link to a video of stupid falling kids. and less sarcasm",
+    dateofentry: new Date("2024-04-29").toLocaleDateString(),
+    references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
+  },
 ];
 
 export const TEACHINGS = [
