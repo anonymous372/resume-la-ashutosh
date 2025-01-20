@@ -72,6 +72,20 @@ export const TEACHINGS = [
 export const PUBLICATIONS = [
   {
     title:
+      "Evanescent Optothermoelectric Trapping: Deeper Potentials at a Largescale",
+    subTitle: "ACS Applied Optical Materials 2, no. 9 (2024): 1872-1879.",
+    link: "https://doi.org/10.1021/acsaom.4c00290",
+    authors: [
+      "Chaudhary Eksha Rani",
+      "Rahul Chand",
+      "Ashutosh Shukla",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "Collaborative work.",
+  },
+  {
+    title:
       "Strain-Enabled Defect Migration and Defect Activation in Monolayer",
     subTitle: "2D Mater., 10 (4), 045009 (2023)",
     link: "https://dx.doi.org/10.1088/2053-1583/aceb74",
