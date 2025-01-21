@@ -59,7 +59,7 @@ const Research = () => {
               <div className="mb-12 sm:px-4">
                 {/* Paper Heading */ }
                 <div className="flex items-center">
-                  <span className="text-xl sm:text-2xl mr-2"> {idx+1} </span>
+                  <span className="text-xl sm:text-2xl mr-2"> {idx-1} </span>
                   <div className="text-xl sm:text-2xl list-disc">{ paper.title }</div>
                 </div>
                 {/* Authors */ }
