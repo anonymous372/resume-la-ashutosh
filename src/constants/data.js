@@ -71,6 +71,24 @@ export const TEACHINGS = [
 // Publication Data
 export const PUBLICATIONS = [
   {
+    {
+    title:
+      "Defect-engineered monolayer MoS2 with enhanced memristive and synaptic functionality for neuromorphic computing",
+    subTitle: "Communications Materials volume 5, Article number: 190 (2024)",
+    link: "https://dx.doi.org/10.1088/2053-1583/aceb74",
+    authors: [
+      "Manisha Rajput",
+      "Sameer Kumar Mallik",
+      "Sagnik Chatterjee",
+      "Ashutosh Shukla",
+      "Sooyeon Hwang",
+      "Satyaprakash Sahoo",
+      "G V Pavan Kumar",
+      "Atikur Rahman",
+    ],
+    description:
+      "Collaborative work where i contributed in the spectroscopy.",
+  },
     title:
       "Evanescent Optothermoelectric Trapping: Deeper Potentials at a Largescale",
     subTitle: "ACS Applied Optical Materials 2, no. 9 (2024): 1872-1879.",
