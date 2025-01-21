@@ -8,7 +8,7 @@ export const BLOGS = [
   },
   {
     title: "What is Life?",
-    description: "link to a video of stupid falling kids. Oh Sorry i forgot that this is a course in pictorial imagery so you will have to image the scenery as i describe it. Just imagine!",
+    description: "link to a video of stupid falling kids. sorry work in progress!",
     dateofentry: new Date("2024-04-28").toLocaleDateString(),
     references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
   },
