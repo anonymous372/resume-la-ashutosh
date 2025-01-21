@@ -72,6 +72,20 @@ export const TEACHINGS = [
 export const PUBLICATIONS = [
   {
     title:
+      "Synchronized motion of gold nanoparticles in an optothermal trap",
+    subTitle: "Preprint",
+    link: "https://arxiv.org/pdf/2411.15512",
+    authors: [
+      "Ashutosh Shukla",
+      "Rahul Chand",
+      "Sneha Boby",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "We show interesting dynamics of gold nanoparticles in an optothermal trap in surfactant solution. The particles are trapped at an offset position and display synchronised motion",
+  },
+  {
+    title:
       "Optothermally Induced Active and Chiral Motion of the Colloidal Structures",
     subTitle: "Preprint",
     link: "https://arxiv.org/pdf/2411.12488",
