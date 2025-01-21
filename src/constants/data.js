@@ -72,6 +72,20 @@ export const TEACHINGS = [
 export const PUBLICATIONS = [
   {
     title:
+      "Optothermally Induced Active and Chiral Motion of the Colloidal Structures",
+    subTitle: "Preprint",
+    link: "https://arxiv.org/pdf/2411.12488",
+    authors: [
+      "Rahul Chand",
+      "Ashutosh Shukla",
+      "Sneha Boby",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "Rahul shows using simulations and experiments interesting dynamics of mixtures of heating and non-heating particles in a broad illumination at various timescales.",
+  },
+  {
+    title:
       "Optothermal Revolution: Colloids in an Optical Ring Trap",
     subTitle: "ACS Photonics (2025)",
     link: "https://doi.org/10.1021/acsphotonics.4c01847",
