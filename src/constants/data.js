@@ -71,11 +71,23 @@ export const TEACHINGS = [
 // Publication Data
 export const PUBLICATIONS = [
   {
+    title:
+      "Optothermal Revolution: Colloids in an Optical Ring Trap",
+    subTitle: "ACS Photonics (2025)",
+    link: "https://doi.org/10.1021/acsphotonics.4c01847",
+    authors: [
+      "Rahul Chand",
+      "Ashutosh Shukla",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "Rahul brilliantly shows how a combination of heating and non-heating particle can lead to driven motion of a binary system around a ring.",
+  },
     {
     title:
       "Defect-engineered monolayer MoS2 with enhanced memristive and synaptic functionality for neuromorphic computing",
     subTitle: "Communications Materials volume 5, Article number: 190 (2024)",
-    link: "https://dx.doi.org/10.1088/2053-1583/aceb74",
+    link: "https://doi.org/10.1038/s43246-024-00632-y",
     authors: [
       "Manisha Rajput",
       "Sameer Kumar Mallik",
