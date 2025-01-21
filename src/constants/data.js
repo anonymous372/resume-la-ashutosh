@@ -82,7 +82,7 @@ export const PUBLICATIONS = [
       "G V Pavan Kumar",
     ],
     description:
-      "Collaborative work.",
+      "Eksha shows using Experiment and Simulation that using a surfactant in an evanescent optothermal trap can increase the trap strength.",
   },
   {
     title:
