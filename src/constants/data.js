@@ -101,6 +101,7 @@ export const PUBLICATIONS = [
     description:
       "Collaborative work where i contributed in the spectroscopy.",
   },
+  {
     title:
       "Evanescent Optothermoelectric Trapping: Deeper Potentials at a Largescale",
     subTitle: "ACS Applied Optical Materials 2, no. 9 (2024): 1872-1879.",
