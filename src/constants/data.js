@@ -42,7 +42,25 @@ export const TEACHINGS = [
   {
     title: "PMRF Teaching",
     description:
-      "Teaching the course PHY202 at Interdisciplinary school of science, Pune University",
+      "Taught Physics 202 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
+    interval: "Spring semester 2025",
+    extraText: "Course Notes can be found",
+    extraLink:
+      "https://drive.google.com/drive/folders/1UEd5wxSPtN3BxXrp_leZ0KF2YsSGJvT7",
+  },
+  {
+    title: "PMRF Teaching",
+    description:
+      "Taught Physics 102 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
+    interval: "Autumn semester 2024",
+    extraText: "Course Notes can be found",
+    extraLink:
+      "https://drive.google.com/drive/folders/1Tr9Pzi7CY01wf2tW8PBymkKCJjXGbN06?usp=sharing",
+  },
+  {
+    title: "PMRF Teaching",
+    description:
+      "Taught Physics 202 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
     interval: "Spring semester 2024",
     extraText: "Course Notes can be found",
     extraLink:
