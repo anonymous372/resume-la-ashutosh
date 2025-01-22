@@ -55,11 +55,12 @@ const Research = () => {
         <div className="my-4 px-16 max-w-5xl bg-gray-100">
           <h2 className="my-2 text-2xl sm:text-3xl font-medium">Publications</h2>
           { PUBLICATIONS.map( ( paper, idx ) => {
+            const len = PUBLICATIONS.length
             return (
               <div className="mb-12 sm:px-4">
                 {/* Paper Heading */ }
                 <div className="flex items-center">
-                  <span className="text-xl sm:text-2xl mr-2"> {idx+1} </span>
+                  <span className="text-xl sm:text-2xl mr-2"> {len-idx} </span>
                   <div className="text-xl sm:text-2xl list-disc">{ paper.title }</div>
                 </div>
                 {/* Authors */ }
