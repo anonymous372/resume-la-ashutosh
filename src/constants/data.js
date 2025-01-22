@@ -36,7 +36,7 @@ export const TEACHINGS = [
   {
     title: "Teaching Assistantship",
     description:
-      "Teaching assistant in PH4233 Advanced Physics Lab with Prof G V, Pavan Kumar",
+      "Teaching assistant in PH4233 Advanced Physics Lab with Prof. G V Pavan Kumar",
     interval: "Spring semester 2023",
   },
   {
