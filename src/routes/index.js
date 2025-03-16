@@ -7,6 +7,7 @@ import Contact from "../screens/contact";
 import NoMatch from "../screens/noMatch";
 import Home from "../screens/home";
 import Post from "../screens/writingblog";
+import MieTheory from "../mietheory/MieTheory";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Post />,
+      },
+      {
+        path: "/mietheory",
+        element: <MieTheory/>
       },
       {
         path: "*",

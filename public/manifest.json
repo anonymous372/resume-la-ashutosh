@@ -1,25 +1,42 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ash_Resume",
+  "name": "Resume La Ashutosh",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/jpeg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "logo.jpg",
+      "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "logo.jpg",
+      "type": "image/jpeg",
       "sizes": "512x512"
     }
   ],
+  "shortcuts": [
+    {
+      "name": "Research",
+      "url": "/research",
+      "description": "A list of my published papers and underdevelopment research"
+    },
+    {
+      "name": "About",
+      "url": "/about",
+      "description": "A few lines about the eccentric scientist"
+    },
+    {
+      "name": "Mie Theory Calc",
+      "url": "/mietheory",
+      "description": "A quick look at the scattering graphs from Mie Theory"
+    }
+  ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

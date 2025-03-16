@@ -3,7 +3,13 @@ export const BLOGS = [
   {
     title: "What is Life?",
     description: "link to a video of stupid falling kids. Oh Sorry i forgot that this is a course in pictorial imagery so you will have to image the scenery as i describe it. Just imagine!",
-    dateofentry: new Date("2024-04-28").toLocaleDateString(),
+    dateofentry: new Date("2024-04-28").toLocaleDateString('en-IN'),
+    references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
+  },
+  {
+    title: "What is research?",
+    description: "link to a video of stupid falling kids. Oh Sorry i forgot that this is a course in pictorial imagery so you will have to image the scenery as i describe it. Just imagine!",
+    dateofentry: new Date("2024-04-28").toLocaleDateString('en-IN'),
     references: [{text:"Here is a link.", link:"https://wikipedia.org"}, {text:"Here is another link.", link:"https://github.com"}],
   },
 ];

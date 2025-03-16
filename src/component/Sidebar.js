@@ -73,6 +73,17 @@ const Sidebar = ({ open, setOpen }) => {
             >
               Contact
             </Link>
+
+            <Link
+              to="/mietheory"
+              className={`flex rounded items-center w-full pl-2 pr-5 py-2 hover:bg-slate-50 border-l-4 ${
+                path === "/mietheory"
+                  ? "border-blue-500 bg-gray-50"
+                  : "border-transparent hover:border-gray-200"
+              }`}
+            >
+              MieTheory
+            </Link>
           </div>
         </div>
       )}

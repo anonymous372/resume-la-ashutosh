@@ -72,6 +72,15 @@ const Navbar = ( { open, setOpen } ) => {
         >
           Contact
         </Link>
+        <Link
+          to="/mietheory"
+          className={ `flex items-center px-5 py-1 bg-slate-50 rounded-full border-2 ${ path === "/mietheory"
+              ? "border-blue-500"
+              : "border-transparent shadow"
+            }` }
+        >
+          Mie Theory
+        </Link>
       </div>
       <div className="md:block hidden w-10 h-10"></div>
       <div className="block md:hidden w-8 h-8" onClick={ () => navigate( "/" ) }>
