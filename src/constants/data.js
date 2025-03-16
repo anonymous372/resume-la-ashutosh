@@ -36,13 +36,31 @@ export const TEACHINGS = [
   {
     title: "Teaching Assistantship",
     description:
-      "Teaching assistant in PH4233 Advanced Physics Lab with Prof G V, Pavan Kumar",
+      "Teaching assistant in PH4233 Advanced Physics Lab with Prof. G V Pavan Kumar",
     interval: "Spring semester 2023",
   },
   {
     title: "PMRF Teaching",
     description:
-      "Teaching the course PHY202 at Interdisciplinary school of science, Pune University",
+      "Taught Physics 202 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
+    interval: "Spring semester 2025",
+    extraText: "Course Notes can be found",
+    extraLink:
+      "https://drive.google.com/drive/folders/1UEd5wxSPtN3BxXrp_leZ0KF2YsSGJvT7",
+  },
+  {
+    title: "PMRF Teaching",
+    description:
+      "Taught Physics 102 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
+    interval: "Autumn semester 2024",
+    extraText: "Course Notes can be found",
+    extraLink:
+      "https://drive.google.com/drive/folders/1Tr9Pzi7CY01wf2tW8PBymkKCJjXGbN06?usp=sharing",
+  },
+  {
+    title: "PMRF Teaching",
+    description:
+      "Taught Physics 202 course at Interdisciplinary School of Science at Savitribai Phule Pune University",
     interval: "Spring semester 2024",
     extraText: "Course Notes can be found",
     extraLink:
@@ -70,6 +88,79 @@ export const TEACHINGS = [
 
 // Publication Data
 export const PUBLICATIONS = [
+  {
+    title:
+      "Synchronized motion of gold nanoparticles in an optothermal trap",
+    subTitle: "Preprint",
+    link: "https://arxiv.org/pdf/2411.15512",
+    authors: [
+      "Ashutosh Shukla",
+      "Rahul Chand",
+      "Sneha Boby",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "We show interesting dynamics of gold nanoparticles in an optothermal trap in surfactant solution. The particles are trapped at an offset position and display synchronised motion",
+  },
+  {
+    title:
+      "Optothermally Induced Active and Chiral Motion of the Colloidal Structures",
+    subTitle: "Preprint",
+    link: "https://arxiv.org/pdf/2411.12488",
+    authors: [
+      "Rahul Chand",
+      "Ashutosh Shukla",
+      "Sneha Boby",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "Rahul shows using simulations and experiments interesting dynamics of mixtures of heating and non-heating particles in a broad illumination at various timescales.",
+  },
+  {
+    title:
+      "Optothermal Revolution: Colloids in an Optical Ring Trap",
+    subTitle: "ACS Photonics (2025)",
+    link: "https://doi.org/10.1021/acsphotonics.4c01847",
+    authors: [
+      "Rahul Chand",
+      "Ashutosh Shukla",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "Rahul brilliantly shows how a combination of heating and non-heating particle can lead to driven motion of a binary system around a ring.",
+  },
+    {
+    title:
+      "Defect-engineered monolayer MoS2 with enhanced memristive and synaptic functionality for neuromorphic computing",
+    subTitle: "Communications Materials volume 5, Article number: 190 (2024)",
+    link: "https://doi.org/10.1038/s43246-024-00632-y",
+    authors: [
+      "Manisha Rajput",
+      "Sameer Kumar Mallik",
+      "Sagnik Chatterjee",
+      "Ashutosh Shukla",
+      "Sooyeon Hwang",
+      "Satyaprakash Sahoo",
+      "G V Pavan Kumar",
+      "Atikur Rahman",
+    ],
+    description:
+      "Collaborative work where i contributed in the spectroscopy.",
+  },
+  {
+    title:
+      "Evanescent Optothermoelectric Trapping: Deeper Potentials at a Largescale",
+    subTitle: "ACS Applied Optical Materials 2, no. 9 (2024): 1872-1879.",
+    link: "https://doi.org/10.1021/acsaom.4c00290",
+    authors: [
+      "Chaudhary Eksha Rani",
+      "Rahul Chand",
+      "Ashutosh Shukla",
+      "G V Pavan Kumar",
+    ],
+    description:
+      "Eksha shows using Experiment and Simulation that using a surfactant in an evanescent optothermal trap can increase the trap strength.",
+  },
   {
     title:
       "Strain-Enabled Defect Migration and Defect Activation in Monolayer",
