@@ -7,7 +7,6 @@ import Contact from "../screens/contact";
 import NoMatch from "../screens/noMatch";
 import Home from "../screens/home";
 import Post from "../screens/writingblog";
-import Infographic from "../screens/infographic";
 import MieTheory from "../mietheory/MieTheory";
 
 const router = createBrowserRouter([
@@ -30,10 +29,6 @@ const router = createBrowserRouter([
       {
         path: "/teaching",
         element: <Teaching />,
-      },
-      {
-        path: "/infographic",
-        element: <Infographic />,
       },
       {
         path: "/contact",
